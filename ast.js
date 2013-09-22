@@ -31,7 +31,6 @@ function analyzeCode(code) {
     var countOfGlobalVariables = 0;
     var ast = esp.parse(code); // Parse the code
     traverse(ast,function(node){
-        //console.log(node.type);
         // If the node type is ExpressionStatement, then it is a variable of gloabal scope(non-local)
         if(node.type == 'ExpressionStatement'){
             ++countOfGlobalVariables;
