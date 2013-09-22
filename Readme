@@ -1,2 +1,4 @@
 Abstract Syntax Tree
 ====================
+
+Javascript program to check the number of non-local(global) variables present in a javascript function.
