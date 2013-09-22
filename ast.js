@@ -1,7 +1,6 @@
 /*
-   This program will take
-
-
+   Program using 'esprima' for checking the non-local variables inside a function. The function is passed as input to
+   this code
  */
 
 
