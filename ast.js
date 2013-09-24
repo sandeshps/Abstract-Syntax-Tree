@@ -33,11 +33,7 @@ function analyzeCode(code) {
     traverse(ast,function(node){
         // If the node type is ExpressionStatement, then it is a variable of gloabal scope(non-local)
         if(node.type == 'ExpressionStatement'){
-            //variablesArray.concat(node.nodeName)
-            console.log(node.nodeType);
-        }
-        if(node.type == 'FunctionDeclaration')      {
-            console.log(node.id.name);
+            console.log(node.nodeName);
         }
      })
 }
